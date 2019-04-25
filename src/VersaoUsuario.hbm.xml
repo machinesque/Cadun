@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : FuncaoCargo.hbm.xml
+    Created on : 5 de Agosto de 2010, 09:39
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.VersaoUsuario" table="versaousuario">
+    <!-- Identificador da classe -->
+    <id column="codigoversaousuario" name="codigoVersaoUsuario">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="codigousuario_usuario" name="codigoUsuario_Usuario"/>
+    <property column="dataatualizacao" name="dataAtualizacao"/>
+    <property column="versaoatual" name="versaoAtual"/>
+  </class>
+</hibernate-mapping>

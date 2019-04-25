@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : Permissoes.hbm.xml
+    Created on : 5 de Agosto de 2010, 11:33
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<hibernate-mapping>
+  <class name="modelo.Permissoes" table="permissoes">
+    <!-- Identificador da classe -->
+    <id column="codigopermissoes" name="codigoPermissoes">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="nomeusuario" name="nomeUsuario"/>
+    <property column="cadastraraluno" name="cadastrarAluno"/>
+    <property column="cadastrarcmei" name="cadastrarCmei"/>
+    <property column="cadastrarfuncaocargo" name="cadastrarFuncaoCargo"/>
+    <property column="cadastrarlicenca" name="cadastrarLicenca"/>
+    <property column="cadastrarrestricao" name="cadastrarRestricao"/>
+    <property column="cadastrarservidor" name="cadastrarServidor"/>
+    <property column="cadastrarusuario" name="cadastrarUsuario"/>
+    <property column="imprimircmei" name="imprimirCmei"/>
+    <property column="imprimiraluno" name="imprimirAluno"/>
+  </class>
+</hibernate-mapping>

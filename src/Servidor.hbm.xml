@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : Servidor.hbm.xml
+    Created on : 17 de Agosto de 2010, 13:16
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.Servidor" table="servidor">
+    <!-- Identificador da classe -->
+    <id column="codigoservidor" name="codigoServidor">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="nomeservidor" name="nomeServidor"/>
+    <property column="matricula" name="matricula"/>
+    <property column="tipoentidade" name="tipoEntidade"/>
+    <property column="nomeentidade" name="nomeEntidade"/>
+    <property column="endereco" name="endereco"/>
+    <property column="numeroendereco" name="numeroEndereco"/>
+    <property column="uf" name="uf"/>
+    <property column="municipio" name="municipio"/>
+    <property column="bairro" name="bairro"/>
+    <property column="funcaocargo" name="funcaoCargo"/>
+    <property column="modalidade" name="modalidade"/>
+    <property column="telefone" name="telefone"/>
+    <property column="celular" name="celular"/>
+    <property column="statuscontrato" name="statusContrato"/>
+    <property column="licenca_codigolicenca" name="licenca_codigoLicenca"/>
+    <property column="restricao_codigorestricao" name="restricao_codigoRestricao"/>
+  </class>
+</hibernate-mapping>

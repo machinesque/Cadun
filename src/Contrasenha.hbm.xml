@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : Contrasenha.hbm.xml
+    Created on : July 1, 2010, 4:24 PM
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.Contrasenha" table="contrasenha">
+    <!-- Identificador da classe -->
+    <id column="codigocontrasenha" name="codigoContraSenha">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="contrasenha" name="contraSenha"/>
+    <property column="tipocontrasenha" name="tipoContraSenha"/>
+  </class>
+</hibernate-mapping>

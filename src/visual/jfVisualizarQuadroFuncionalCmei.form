@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jpInformacoesCmei" alignment="0" max="32767" attributes="0"/>
+          <Component id="jpBotoes" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jpInformacoesCmei" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jpBotoes" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jpBotoes">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+            <PropertyBean type="org.jdesktop.swingx.border.DropShadowBorder"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbCancelar" min="-2" pref="96" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jbImprimir" min="-2" pref="96" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jbFechar" min="-2" pref="96" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbFechar" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jbImprimir" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jbCancelar" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jbFechar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fechar"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbFecharActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbCancelar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/cancelar.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbCancelarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbImprimir">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/imagens/imprimir.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Imprimir"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpInformacoesCmei">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+            <PropertyBean type="org.jdesktop.swingx.border.DropShadowBorder"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel7" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jlbEstagiarios" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="500" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jlbServidoresConcursados" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="501" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jcbNomeEntidade" alignment="0" max="32767" attributes="1"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jtfCapacidadeAlunos" max="32767" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jtfVagasDisponiveis" min="-2" pref="113" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jlbNumeroLotacoes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="509" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jpQuantitativoFuncional" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jcbNomeEntidade" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfCapacidadeAlunos" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtfVagasDisponiveis" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbServidoresConcursados" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbEstagiarios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbNumeroLotacoes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jpQuantitativoFuncional" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nome do CMEI: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jcbNomeEntidade">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jcbNomeEntidadeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Capacidade de alunos: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfCapacidadeAlunos">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder bevelType="1"/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Vagas Dispon&#xed;veis: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtfVagasDisponiveis">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder bevelType="1"/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Estagi&#xe1;rios: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Servidores Concursados: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total Lota&#xe7;&#xf5;es: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbServidoresConcursados">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="nrServidores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbEstagiarios">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="nrEstagi&#xe1;rios"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbNumeroLotacoes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="nrLota&#xe7;&#xf5;es"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jpQuantitativoFuncional">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabel2" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel16" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel15" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel14" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel13" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel12" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel11" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel8" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel10" alignment="1" max="32767" attributes="1"/>
+                          <Component id="jLabel9" alignment="1" max="32767" attributes="1"/>
+                          <Component id="jLabel17" alignment="1" max="32767" attributes="1"/>
+                          <Component id="jLabel18" alignment="0" min="-2" pref="216" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jlbNrMonitorEducacional" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrProfessorPSTarde" alignment="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrProfessorPSManha" alignment="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrAuxiliarCoordenacao" alignment="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrMonitor" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrCozinheira" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrZeladora" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrLavanderia" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrProfessorTarde" alignment="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrProfessorManha" alignment="0" pref="0" max="32767" attributes="1"/>
+                          <Component id="jlbNrCoordenador" alignment="0" max="32767" attributes="1"/>
+                          <Component id="jLabel19" alignment="0" min="-2" pref="81" max="-2" attributes="1"/>
+                          <Component id="jlbTotal" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel20" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel23" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel24" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoCoordenador" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeCoordenador" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeCoordenador" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoCoordenador" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioCoordenador" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoProfessorManha" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeProfessorManha" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeProfessorManha" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoProfessorManha" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioProfessorManha" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoProfessorTarde" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeProfessorTarde" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeProfessorTarde" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoProfessorTarde" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioProfessorTarde" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoProfessorPSManha" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeProfessorPSManha" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeProfessorPSManha" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoProfessorPSManha" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioProfessorPSManha" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoProfessorPSTarde" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeProfessorPSTarde" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeProfessorPSTarde" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoProfessorPSTarde" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioProfessorPSTarde" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoAuxiliarCoordenacao" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeAuxiliarCoordenacao" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeAuxiliarCoordenacao" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoAuxiliarCoordenacao" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioAuxiliarCoordenacao" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoMonitor" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeMonitor" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeMonitor" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoMonitor" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioMonitor" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jlbNrRestricaoMonitorEducacional" min="-2" pref="76" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSaudeMonitorEducacional" min="-2" pref="97" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaMaternidadeMonitorEducacional" min="-2" pref="134" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaSemVencimentoMonitorEducacional" min="-2" pref="148" max="-2" attributes="1"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jlbNrLicencaPremioMonitorEducacional" min="-2" pref="103" max="-2" attributes="1"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jlbNrRestricaoCozinheira" min="-2" pref="76" max="-2" attributes="1"/>
+                                      <Component id="jlbNrRestricaoZeladora" min="-2" pref="76" max="-2" attributes="1"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jlbNrLicencaSaudeZeladora" min="-2" pref="97" max="-2" attributes="1"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jlbNrLicencaMaternidadeZeladora" min="-2" pref="134" max="-2" attributes="1"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jlbNrLicencaSemVencimentoZeladora" min="-2" pref="148" max="-2" attributes="1"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jlbNrLicencaPremioZeladora" min="-2" pref="103" max="-2" attributes="1"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jlbNrLicencaSaudeCozinheira" min="-2" pref="97" max="-2" attributes="1"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jlbNrLicencaMaternidadeCozinheira" min="-2" pref="134" max="-2" attributes="1"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="jlbNrLicencaSemVencimentoCozinheira" min="-2" pref="148" max="-2" attributes="1"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jlbNrLicencaPremioCozinheira" min="-2" pref="103" max="-2" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jlbNrRestricaoLavanderia" min="-2" pref="76" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbNrLicencaSaudeLavanderia" min="-2" pref="97" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbNrLicencaMaternidadeLavanderia" min="-2" pref="134" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbNrLicencaSemVencimentoLavanderia" min="-2" pref="148" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbNrLicencaPremioLavanderia" min="-2" pref="103" max="-2" attributes="1"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jlbTotalRestricao" min="-2" pref="76" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbTotalLicencaSaude" min="-2" pref="97" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbTotalLicencaMaternidade" min="-2" pref="134" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbTotalLicencaSemVencimento" min="-2" pref="148" max="-2" attributes="1"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jlbTotalLicencaPremio" min="-2" pref="103" max="-2" attributes="1"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel21" alignment="1" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrCoordenador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoCoordenador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeCoordenador" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeCoordenador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoCoordenador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioCoordenador" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrProfessorManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoProfessorManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeProfessorManha" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeProfessorManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoProfessorManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioProfessorManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrProfessorTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoProfessorTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeProfessorTarde" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeProfessorTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoProfessorTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioProfessorTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrProfessorPSManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoProfessorPSManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeProfessorPSManha" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeProfessorPSManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoProfessorPSManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioProfessorPSManha" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrProfessorPSTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoProfessorPSTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeProfessorPSTarde" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeProfessorPSTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoProfessorPSTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioProfessorPSTarde" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrAuxiliarCoordenacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoAuxiliarCoordenacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeAuxiliarCoordenacao" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeAuxiliarCoordenacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoAuxiliarCoordenacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioAuxiliarCoordenacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrMonitor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoMonitor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeMonitor" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeMonitor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoMonitor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioMonitor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrMonitorEducacional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoMonitorEducacional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeMonitorEducacional" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeMonitorEducacional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoMonitorEducacional" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioMonitorEducacional" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrCozinheira" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoCozinheira" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeCozinheira" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeCozinheira" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoCozinheira" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioCozinheira" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrZeladora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoZeladora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeZeladora" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeZeladora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoZeladora" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioZeladora" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLavanderia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrRestricaoLavanderia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSaudeLavanderia" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbNrLicencaMaternidadeLavanderia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaSemVencimentoLavanderia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbNrLicencaPremioLavanderia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlbTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbTotalRestricao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbTotalLicencaSaude" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jlbTotalLicencaMaternidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbTotalLicencaSemVencimento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbTotalLicencaPremio" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Cargo / Fun&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Coordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Professor (manh&#xe3;)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Professor (tarde)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Professor periodo suplementar (manh&#xe3;)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Professor periodo suplementar (tarde)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Auxiliar de coordena&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Monitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Monitor Educacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Cozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Zeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Lavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrProfessorManh&#xe3;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrProfessorPS(manh&#xe3;)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrProfessorPS(tarde)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrAuxiliarCoordena&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Quantidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Restri&#xe7;&#xe3;o"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Licen&#xe7;a Sa&#xfa;de"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Licen&#xe7;a Maternidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Licen&#xe7;a S/ Vencimento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Licen&#xe7;a Pr&#xea;mio"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotal">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="TOTAL:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioCoordenador">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioCoordenador"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoProfessorManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeProfessorManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeProfessorManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoProfessorManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioProfessorManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioProfessorManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioProfessorTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioProfessorTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoProfessorPeriodoSuplementarManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeProfessorPeriodoSuplementarManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeProfessorPeriodoSuplementarManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoProfessorPeriodoSuplementarManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioProfessorPSManha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioProfessorPeriodoSuplementarManha"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoProfessorPeriodoSuplementarTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeProfessorPeriodoSuplementarTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeProfessorPeriodoSuplementarTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoProfessorPeriodoSuplementarTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioProfessorPSTarde">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioProfessorPeriodoSuplementarTarde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoAuxiliarCoordenacao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeAuxiliarCoordenacao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeAuxiliarCoordenacao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoAuxiliarCoordenacao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioAuxiliarCoordenacao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioAuxiliarCoordenacao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioMonitor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioMonitor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioMonitorEducacional">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioMonitorEducacional"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioCozinheira">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioCozinheira"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioZeladora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioZeladora"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrRestricaoLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrRestricaoLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSaudeLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSaudeLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaMaternidadeLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaMaternidadeLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaSemVencimentoLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaSemVencimentoLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbNrLicencaPremioLavanderia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="nrLicencaPremioLavanderia"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotalRestricao">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="totalRestricao"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotalLicencaSaude">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="totalLicencaSaude"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotalLicencaMaternidade">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="totalLicencaMaternidade"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotalLicencaSemVencimento">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="totalLicencaSemVencimento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jlbTotalLicencaPremio">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="totalLicencaPremio"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

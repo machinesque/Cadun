@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : Aluno.hbm.xml
+    Created on : 5 de Agosto de 2010, 15:59
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.Aluno" table="aluno">
+    <!-- Identificador da classe -->
+    <id column="codigoaluno" name="codigoAluno">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="anoregistrocertidaonascimento" name="anoRegistroCertidaoNascimento"/>
+    <property column="bairro" name="bairro"/>
+    <property column="bolsafamilia" name="bolsaFamilia"/>
+    <property column="cartoriocertidaonascimento" name="cartorioCertidaoNascimento"/>
+    <property column="celular1" name="celular1"/>
+    <property column="celular2" name="celular2"/>
+    <property column="cpfmae" name="cpfMae"/>
+    <property column="cpfpai" name="cpfPai"/>
+    <property column="cpfresponsavel" name="cpfResponsavel"/>
+    <property column="datacadastro" name="dataCadastro"/>
+    <property column="datadesistencia" name="dataDesistencia"/>
+    <property column="dataegresso" name="dataEgresso"/>
+    <property column="datanascimento" name="dataNascimento"/>
+    <property column="datanascimentomae" name="dataNascimentoMae"/>
+    <property column="datanascimentopai" name="dataNascimentoPai"/>
+    <property column="datanascimentoresponsavel" name="dataNascimentoResponsavel"/>
+    <property column="datasolicitacaotransferencia" name="dataSolicitacaoTransferencia"/>
+    <property column="digitoverificadorcertidaonascimento" name="digitoVerificadorCertidaoNascimento"/>
+    <property column="endereco" name="endereco"/>
+    <property column="enderecocomercialmae" name="enderecoComercialMae"/>
+    <property column="enderecocomercialpai" name="enderecoComercialPai"/>
+    <property column="enderecocomercialresponsavel" name="enderecoComercialResponsavel"/>
+    <property column="enderecoresponsavel" name="enderecoResponsavel"/>
+    <property column="filiacaomae" name="filiacaoMae"/>
+    <property column="filiacaopai" name="filiacaoPai"/>
+    <property column="folhacertidaonascimento" name="folhaCertidaoNascimento"/>
+    <property column="livrocertidaonascimento" name="livroCertidaoNascimento"/>
+    <property column="matricula" name="matricula"/>
+    <property column="modalidade" name="modalidade"/>
+    <property column="municipio" name="municipio"/>
+    <property column="naturalidade" name="naturalidade"/>
+    <property column="nomealuno" name="nomeAluno"/>
+    <property column="nomeentidade" name="nomeEntidade"/>
+    <property column="nomeentidadeopcao2" name="nomeEntidadeOpcao2"/>
+    <property column="nomeentidadeopcao3" name="nomeEntidadeOpcao3"/>
+    <property column="nomeresponsavel" name="nomeResponsavel"/>
+    <property column="numeroendereco" name="numeroEndereco"/>
+    <property column="numeroenderecoresponsavel" name="numeroEnderecoResponsavel"/>
+    <property column="numeroenderecocomercialmae" name="numeroEnderecoComercialMae"/>
+    <property column="numeroenderecocomercialpai" name="numeroEnderecoComercialPai"/>
+    <property column="numeroenderecocomercialresponsavel" name="numeroEnderecoComercialResponsavel"/>
+    <property column="numeroidentificadorcopel" name="numeroIdentificadorCopel"/>
+    <property column="numeromatriculacertidaonascimento" name="numeroMatriculaCertidaoNascimento"/>
+    <property column="ordemjudicial" name="ordemJudicial"/>
+    <property column="passaportemae" name="passaporteMae"/>
+    <property column="passaportepai" name="passaportePai"/>
+    <property column="profissaomae" name="profissaoMae"/>
+    <property column="profissaopai" name="profissaoPai"/>
+    <property column="profissaoresponsavel" name="profissaoResponsavel"/>
+    <property column="rgmae" name="rgMae"/>
+    <property column="rgpai" name="rgPai"/>
+    <property column="rgresponsavel" name="rgResponsavel"/>
+    <property column="sexo" name="sexo"/>
+    <property column="telefone" name="telefone"/>
+    <property column="telefonecomercialmae" name="telefoneComercialMae"/>
+    <property column="telefonecomercialpai" name="telefoneComercialPai"/>
+    <property column="telefonecomercialresponsavel" name="telefoneComercialResponsavel"/>
+    <property column="telefoneresponsavel" name="telefoneResponsavel"/>
+    <property column="termocertidaonascimento" name="termoCertidaoNascimento"/>
+    <property column="tipocadastro" name="tipoCadastro"/>
+    <property column="uf" name="uf"/>
+
+  </class>
+</hibernate-mapping>

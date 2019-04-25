@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.TransferenciaServidor" table="transferenciaservidor">
+    <!-- Identificador da classe -->
+    <id column="codigotransferenciaservidor" name="codigoTransferenciaServidor">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="codigoservidor" name="codigoServidor"/>
+    <property column="nomeservidor" name="nomeServidor"/>
+    <property column="matriculaservidor" name="matriculaServidor"/>
+    <property column="nomeentidadeanterior" name="nomeEntidadeAnterior"/>
+    <property column="nomeentidadeatual" name="nomeEntidadeAtual"/>
+    <property column="motivotransferencia" name="motivoTransferencia"/>
+    <property column="datatransferencia" name="dataTransferencia"/>
+  </class>
+</hibernate-mapping>

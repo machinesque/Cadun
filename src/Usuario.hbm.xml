@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!--
+    Document   : Usuario.hbm.xml
+    Created on : 6 de Abril de 2010, 10:19
+    Author     : luizam
+    Description:
+        Purpose of the document follows.
+-->
+<!-- Banco PostgreSql`-->
+<hibernate-mapping>
+  <class name="modelo.Usuario" table="usuario">
+    <!-- Identificador da classe -->
+    <id column="codigousuario" name="codigoUsuario">
+      <generator class="increment"/>
+    </id>
+    <!-- Propriedades da classe -->
+    <property column="nomeusuario" name="nomeUsuario"/>
+    <property column="senha" name="senha"/>
+    <property column="contrasenha" name="contraSenha"/>
+    <property column="temaescolhido" name="temaEscolhido"/>
+    <property column="tipocadastro" name="tipoCadastro"/>
+    <property column="matricula" name="matricula"/>
+  </class>
+</hibernate-mapping>

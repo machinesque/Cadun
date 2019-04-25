@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        
+        <!-- Configuração do c3p0 -->
+        
+        <!-- Configurações de debug -->
+        <mapping resource="Aluno.hbm.xml"/>
+        <mapping resource="Cmei.hbm.xml"/>
+        <mapping resource="Contrasenha.hbm.xml"/>
+        <mapping resource="FuncaoCargo.hbm.xml"/>
+        <mapping resource="Licenca.hbm.xml"/>
+        <mapping resource="Permissoes.hbm.xml"/>
+        <mapping resource="Restricao.hbm.xml"/>
+        <mapping resource="Servidor.hbm.xml"/>
+        <mapping resource="TransferenciaAluno.hbm.xml"/>
+        <mapping resource="TransferenciaServidor.hbm.xml"/>
+        <mapping resource="Usuario.hbm.xml"/>
+        <mapping resource="VersaoAtual.hbm.xml"/>
+        <mapping resource="VersaoUsuario.hbm.xml"/>
+
+        <!-- amsdhfaois -->
+    </session-factory>
+</hibernate-configuration>
